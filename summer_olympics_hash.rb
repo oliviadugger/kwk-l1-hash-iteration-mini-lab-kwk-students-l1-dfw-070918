@@ -21,6 +21,7 @@ end
   
 def iterate_through_keys
  {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
+  iterate_through_keys.each
   upcased_cities.each
 end
 
