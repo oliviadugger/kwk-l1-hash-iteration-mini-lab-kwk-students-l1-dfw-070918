@@ -17,6 +17,8 @@ def iterate_through_hash
  new_city = :Atlanta
  new_date = "1996"
  summer_olympics[new_city] = new_date
+ do city, date 
+ puts 
 end
 
 # Implement this method so that it iterates over the hash created in add_a_key_value_pair
