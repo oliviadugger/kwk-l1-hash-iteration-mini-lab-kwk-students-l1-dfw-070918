@@ -20,8 +20,7 @@ end
 
   
 def iterate_through_keys
-upcased_cities = add_a_key_value_pair.mop {|key, value| key.upcase}
-
+upcased_cities = add_a_key_value_pair.map {|key, value| key.upcase}
   upcased_cities.each{|city| puts city}
 end
 
