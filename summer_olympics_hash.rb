@@ -20,6 +20,7 @@ def iterate_through_hash
  
  summer_olympics.each do |city, date|
   puts "The #{city} summer olympics took place in #{date}."
+return summer_olympics
 end
 
 # Implement this method so that it iterates over the hash created in add_a_key_value_pair
