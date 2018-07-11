@@ -17,8 +17,10 @@ def iterate_through_hash
  new_city = :Atlanta
  new_date = "1996"
  summer_olympics[new_city] = new_date
- summer_olympics.each do |city, date 
- puts :city#{
+ 
+ summer_olympics.each do |city, date|
+   
+ 
 end
 
 # Implement this method so that it iterates over the hash created in add_a_key_value_pair
