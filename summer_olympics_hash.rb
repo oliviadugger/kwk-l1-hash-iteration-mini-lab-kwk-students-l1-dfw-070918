@@ -16,7 +16,7 @@ def iterate_through_hash
   summer_olympics = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012", :Atlanta => "1996"}
  
  add_a_key_value_pair.each {|city, date|
-  puts "The #{date} summer olympics took place in #{city}."
+  puts "The #{city} summer olympics took place in #{date}."
   }
   end 
 end
