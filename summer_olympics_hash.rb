@@ -15,10 +15,10 @@ end
 def iterate_through_hash
   summer_olympics = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012", :Atlanta => "1996"}
  
- {|city, date|
+ add_a_key_value_pair.each {|city, date|
   puts "The #{date} summer olympics took place in #{city}."
-add_a_key_value_pair.each}
-
+}
+  end 
 end
 
 # Implement this method so that it iterates over the hash created in add_a_key_value_pair
