@@ -7,7 +7,8 @@ end
 def add_a_key_value_pair
  new_city = :Atlanta
  new_date = "1996"
- summer_olympics
+ summer_olympics[new_city] = new_date
+ return summer_olympics
 end
 
 def iterate_through_hash
