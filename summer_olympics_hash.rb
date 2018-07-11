@@ -17,7 +17,7 @@ def iterate_through_hash
  
  add_a_key_value_pair.each {|city, date|
   puts "The #{date} summer olympics took place in #{city}."
-}
+  }
   end 
 end
 
