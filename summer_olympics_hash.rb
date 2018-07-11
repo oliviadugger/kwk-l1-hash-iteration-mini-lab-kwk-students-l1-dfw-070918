@@ -20,9 +20,8 @@ end
 
   
 def iterate_through_keys
-cities = ["Sydney", "Athens", "Beijing",  "London"]
-  iterate_through_keys.each
-  upcased_cities.each
+upcased_cities = ["Sydney", "Athens", "Beijing",  "London"]
+  upcased_cities.upcase
 end
 
 # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
