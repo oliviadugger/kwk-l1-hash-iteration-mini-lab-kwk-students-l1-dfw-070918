@@ -14,12 +14,9 @@ end
 
 def iterate_through_hash
   summer_olympics = {:Sydney => "2000", :Athens => "2004", :Beijing => "2008", :London => "2012"}
- new_city = :Atlanta
- new_date = "1996"
- summer_olympics[new_city] = new_date
  
  summer_olympics.each do |city, date|
-  puts "The #{city} summer olympics took place in #{date}."
+  puts "The #{date} summer olympics took place in #{city}."
 return summer_olympics
 end
 
