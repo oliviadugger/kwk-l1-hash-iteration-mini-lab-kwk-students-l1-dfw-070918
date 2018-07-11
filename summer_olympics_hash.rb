@@ -20,7 +20,7 @@ end
 
   
 def iterate_through_keys
-  
+  upcased_cities.each
 end
 
 # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
